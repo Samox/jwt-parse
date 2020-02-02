@@ -16,6 +16,9 @@
   ],
   "author": "Samox",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "typescript": "^3.7.5"
   }
