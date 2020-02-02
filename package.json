@@ -1,5 +1,5 @@
 {
-  "name": "jwt-parse",
+  "name": "@samox/jwt-parse",
   "version": "1.0.0",
   "description": "Helper lib to type-safely extract JWT payload or header",
   "main": "dist/index.js",
