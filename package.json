@@ -1,15 +1,20 @@
 {
-  "name": "decode-jwt",
+  "name": "jwt-parse",
   "version": "1.0.0",
   "description": "Helper lib to type-safely extract JWT payload or header",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublish": "build"
+    "prepare": "npm build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "JWT",
+    "auth",
+    "decode",
+    "parse"
+  ],
+  "author": "Samox",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^3.7.5"
