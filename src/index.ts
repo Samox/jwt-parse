@@ -1,4 +1,4 @@
-export const decodeJWT = <
+export const parseJWT = <
   Payload extends Record<string, any>,
   Header extends Record<string, any>
 >(
