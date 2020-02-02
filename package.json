@@ -1,12 +1,12 @@
 {
   "name": "jwt-parse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper lib to type-safely extract JWT payload or header",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm build"
+    "prepare": "npm run-script build"
   },
   "keywords": [
     "JWT",
