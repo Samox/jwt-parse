@@ -20,6 +20,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
+    "typecov": "^0.2.1",
     "typescript": "^3.7.5"
   }
 }
