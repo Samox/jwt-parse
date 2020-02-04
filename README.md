@@ -27,6 +27,6 @@ type JWTHeader = { alg: string; typ: string };
 
 const { payload, header } = parseJWT<JWTPayload, JWTHeader>(JWT);
 
-console.log("Payload", payload.name);
-console.log("Header", header);
+console.log("Payload :", payload.name);
+console.log("Header :", header);
 ```
